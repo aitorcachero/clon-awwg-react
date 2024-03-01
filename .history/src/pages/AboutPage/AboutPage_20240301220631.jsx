@@ -172,11 +172,11 @@ export default function AboutPage() {
           {executiveTeam.map((executive, i) => {
             return (
               <article key={i} className="flex flex-col lg:flex-row ">
-                <div className="h-1/2 lg:h-full lg:w-1/2">
+                <div className="w-1/2">
                   <img src={executive.img} className="w-full" />
                 </div>
                 <main
-                  className="flex flex-col justify-center items-center h-1/2 lg:h-full lg:w-1/2 text-white gap-4 text-center"
+                  className="flex flex-col justify-center items-center w-1/2 text-white gap-4 text-center"
                   style={{ backgroundColor: '#A0B6C2' }}
                 >
                   <h2 className="text-3xl font-semibold w-2/3">
