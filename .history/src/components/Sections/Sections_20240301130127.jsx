@@ -6,12 +6,8 @@ export default function Sections() {
     <section className="w-full min-h-auto-[480px] flex flex-col flex-1 lg:flex-row justify-center items-center gap-4 py-10 bg-white">
       {sections.map((section, i) => {
         return (
-          <NavLink
-            to={section.url}
-            key={i}
-            className="w-[480px] h-[640px] relative overflow-hidden hover:cursor-pointer"
-          >
-            <article>
+          <NavLink to={section.url}>
+            <article className="w-[480px] h-[640px] relative overflow-hidden hover:cursor-pointer">
               <img
                 src={section.img}
                 className="w-full h-full hover:scale-110 transition-all"

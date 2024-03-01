@@ -9,9 +9,9 @@ export default function Sections() {
           <NavLink
             to={section.url}
             key={i}
-            className="w-[480px] h-[640px] relative overflow-hidden hover:cursor-pointer"
+            className="w-[480px] h-[640px] p-10 relative overflow-hidden hover:cursor-pointer"
           >
-            <article>
+            <article className="w-[480px] h-[640px] relative overflow-hidden hover:cursor-pointer">
               <img
                 src={section.img}
                 className="w-full h-full hover:scale-110 transition-all"

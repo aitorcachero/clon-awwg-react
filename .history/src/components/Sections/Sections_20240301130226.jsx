@@ -11,7 +11,7 @@ export default function Sections() {
             key={i}
             className="w-[480px] h-[640px] relative overflow-hidden hover:cursor-pointer"
           >
-            <article>
+            <article className="">
               <img
                 src={section.img}
                 className="w-full h-full hover:scale-110 transition-all"
