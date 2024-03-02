@@ -44,6 +44,7 @@ import danSlater from '../assets/Dan_Slater.webp';
 import gianniColarossi from '../assets/Gianni_Colarossi.webp';
 import johanVercammen from '../assets/Johan_Vercammen.webp';
 
+import brandsBanner from '../assets/brands.webp';
 import pepeJeansBrand from '../assets/pepe-jeans-2.webp';
 import brandsPepeJean from '../assets/brands-pepe-jeans.webp';
 import hacketLondon from '../assets/hackett-london.webp';

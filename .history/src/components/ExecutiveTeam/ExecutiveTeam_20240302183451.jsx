@@ -2,7 +2,7 @@ import { executiveTeam } from '../../helpers/const.js';
 
 export default function ExecutiveTeam() {
   return (
-    <section className="flex flex-col justify-center items-center w-full h-full gap-10 p-4 lg:p-20">
+    <section className="flex flex-col justify-center items-center w-full h-full gap-10 p-20">
       <h2 className=" text-3xl font-semibold text-blue-900">Executive team</h2>
       <main className="grid lg:grid-cols-2 gap-1 lg:w-[1200px]">
         {executiveTeam.map((executive, i) => {

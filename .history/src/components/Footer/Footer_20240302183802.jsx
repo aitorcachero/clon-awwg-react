@@ -16,7 +16,7 @@ export default function Footer() {
           );
         })}
       </section>
-      <section className="flex flex-row gap-4 lg:gap-10 items-center justify-center">
+      <section className="flex flex-row gap-4 lg:gap-10 items-center">
         {sections.map((section, i) => {
           return (
             <NavLink to={section.url} key={i}>
@@ -31,9 +31,7 @@ export default function Footer() {
         {footer.map((section, i) => {
           return (
             <a href={section.url} key={i}>
-              <h2 className="text-white text-xs p-1  lg:text-lg">
-                {section.name}
-              </h2>
+              <h2 className="text-white text-xs  lg:text-lg">{section.name}</h2>
             </a>
           );
         })}

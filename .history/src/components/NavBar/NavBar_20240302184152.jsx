@@ -17,7 +17,7 @@ export default function NavBar() {
           return (
             <NavLink to={item.url} key={i}>
               <li>
-                <p className="text-xs lg:text-lg text-blue-900 hover:underline lg:font-semibold">
+                <p className="text-xs lg:text-lg text-blue-900 hover:underline">
                   {item.name}
                 </p>
               </li>

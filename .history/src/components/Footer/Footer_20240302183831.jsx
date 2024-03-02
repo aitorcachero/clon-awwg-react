@@ -31,7 +31,7 @@ export default function Footer() {
         {footer.map((section, i) => {
           return (
             <a href={section.url} key={i}>
-              <h2 className="text-white text-xs p-1  lg:text-lg">
+              <h2 className="text-white text-xs w-full  lg:text-lg">
                 {section.name}
               </h2>
             </a>
