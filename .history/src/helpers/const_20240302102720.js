@@ -346,13 +346,13 @@ const brands = [
     ],
     banner: [
       {
-        img: hacketBrands,
+        img: façonnableLogoBrands,
         url: 'https://www.hackett.com/es/home?utm_source=awwg_site',
       },
     ],
   },
   {
-    imgBrand: façonnableLogoBrands,
+    imgBrand: hacketLondon,
     text: [
       'The French men’s prêt à porter brand first set up shop in 1950, on the Côte d’Azur.',
       'Its unique collection of bright, colourful garments, in a range of smart-casual styles, is still made in Nice to this day. The brand is inspired by the typical lifestyle of this region nestled between the Mediterranean and Nice’s hinterland. It immortalises the values that have been passed down through the years while adding its own modern touch.',

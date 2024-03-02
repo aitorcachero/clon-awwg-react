@@ -30,7 +30,7 @@ export default function BrandsPage() {
               {brand.banner.map((brand, i) => {
                 return (
                   <>
-                    <div key={i} className="relative">
+                    <div key={i}>
                       <img
                         src={brand.img}
                         className="w-auto h-auto p-4 lg:p-0 "

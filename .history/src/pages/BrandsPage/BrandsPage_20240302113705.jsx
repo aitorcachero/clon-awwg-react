@@ -24,13 +24,13 @@ export default function BrandsPage() {
               );
             })}
             <div
-              className="relative flex flex-col w-full lg:flex-row lg:w-[1200px] gap-4"
+              className="relative flex flex-col lg:flex-row w-[1200px] gap-4"
               key={i}
             >
               {brand.banner.map((brand, i) => {
                 return (
                   <>
-                    <div key={i} className="relative">
+                    <div key={i}>
                       <img
                         src={brand.img}
                         className="w-auto h-auto p-4 lg:p-0 "

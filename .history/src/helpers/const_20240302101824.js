@@ -328,57 +328,12 @@ const executiveTeam = [
 
 const brands = [
   {
-    imgBrand: pepeJeansBrand,
-    text: [
-      'Pepe Jeans London has been at the forefront of internation denim-led fashion for the past 50 years, being able to create an internationally recognized brand with a unique strategy and reputation. This has been possible thanks not only to the great Pepe Jeans team but also to the commitment to create the best possible collections and the most exciting retail environments while remaining sincere to the brand’s DNA and in particular the roots in London’s Portobello Road. Pepe Jeans London has also collaborated with the most iconic celebrities such as Kate Moss, Sienna Miller, Alexa Chung, Cara Delevingne, Georgia Jagger or Dua Lipa, in the hottest multimedia marketing campaigns.',
-    ],
+    imgBrand: '',
+    text: '',
     banner: [
       {
-        img: brandsPepeJean,
-        url: 'https://www.pepejeans.com/?utm_source=awwg_site',
-      },
-    ],
-  },
-  {
-    imgBrand: hacketLondon,
-    text: [
-      'It all started in 1983 when Jeremy Hackett opened his first store selling second-hand clothes on the King’s Road, Chelsea. It was here that he began then creating his own garments, by merging traditional styles with modern cuts, perfect for those seeking the Savile Row style but brought to today: craftsmanship combined with a unique British twist. Hackett has achived that by focusing on its personality, which is what makes it truly unique. Hackett is defined by its excellence and craftsmanship and has its mind set on leaving a mark. Today, Hackett boasts collaborations with like-minded partners such as Aston Martin, Henley Royal Regatta and British Army Polo.',
-    ],
-    banner: [
-      {
-        img: hacketBrands,
-        url: 'https://www.hackett.com/es/home?utm_source=awwg_site',
-      },
-    ],
-  },
-  {
-    imgBrand: façonnableLogoBrands,
-    text: [
-      'The French men’s prêt à porter brand first set up shop in 1950, on the Côte d’Azur.',
-      'Its unique collection of bright, colourful garments, in a range of smart-casual styles, is still made in Nice to this day. The brand is inspired by the typical lifestyle of this region nestled between the Mediterranean and Nice’s hinterland. It immortalises the values that have been passed down through the years while adding its own modern touch.',
-      'It offers a complete male wardrobe featuring quality materials and immaculate details that lend its garments a tailored, nautical, sporty air.',
-    ],
-    banner: [
-      {
-        img: façonnableBrands,
-        url: 'https://www.faconnable.com/?utm_source=awwg_site',
-      },
-    ],
-  },
-  {
-    imgBrand: pvhLogo,
-    text: [
-      'Tommy Hilfiger is one of the world’s leading designer lifestyle brands and is internationally recognized for celebrating the essence of classic American cool style, featuring preppy with a twist designs. In 1993 Tommy Hilfiger arrives to Europe, settling in Spain with the help of AWWG.',
-      'Calvin Klein is a global lifestyle brand that exemplifies bold, progressive ideals and a seductive, and often minimal, aesthetic. We seek to thrill and inspire our audience while using provocative imagery and striking designs to ignite the senses. In 2013 an agreement was reached with PVH to distribute Calvin Klein in Spain and Portugal.',
-    ],
-    banner: [
-      {
-        img: tommyBrands,
-        url: 'https://es.tommy.com/?utm_source=awwg_site',
-      },
-      {
-        img: ckBrands,
-        url: 'https://www.calvinklein.es/?utm_source=awwg_site',
+        img: '',
+        url: '',
       },
     ],
   },
@@ -392,5 +347,4 @@ export {
   news,
   values,
   executiveTeam,
-  brands,
 };

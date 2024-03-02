@@ -346,13 +346,13 @@ const brands = [
     ],
     banner: [
       {
-        img: hacketBrands,
+        img: façonnableLogoBrands,
         url: 'https://www.hackett.com/es/home?utm_source=awwg_site',
       },
     ],
   },
   {
-    imgBrand: façonnableLogoBrands,
+    imgBrand: hacketLondon,
     text: [
       'The French men’s prêt à porter brand first set up shop in 1950, on the Côte d’Azur.',
       'Its unique collection of bright, colourful garments, in a range of smart-casual styles, is still made in Nice to this day. The brand is inspired by the typical lifestyle of this region nestled between the Mediterranean and Nice’s hinterland. It immortalises the values that have been passed down through the years while adding its own modern touch.',
@@ -366,19 +366,15 @@ const brands = [
     ],
   },
   {
-    imgBrand: pvhLogo,
+    imgBrand: hacketLondon,
     text: [
       'Tommy Hilfiger is one of the world’s leading designer lifestyle brands and is internationally recognized for celebrating the essence of classic American cool style, featuring preppy with a twist designs. In 1993 Tommy Hilfiger arrives to Europe, settling in Spain with the help of AWWG.',
       'Calvin Klein is a global lifestyle brand that exemplifies bold, progressive ideals and a seductive, and often minimal, aesthetic. We seek to thrill and inspire our audience while using provocative imagery and striking designs to ignite the senses. In 2013 an agreement was reached with PVH to distribute Calvin Klein in Spain and Portugal.',
     ],
     banner: [
       {
-        img: tommyBrands,
-        url: 'https://es.tommy.com/?utm_source=awwg_site',
-      },
-      {
-        img: ckBrands,
-        url: 'https://www.calvinklein.es/?utm_source=awwg_site',
+        img: façonnableBrands,
+        url: 'https://www.faconnable.com/?utm_source=awwg_site',
       },
     ],
   },
@@ -392,5 +388,4 @@ export {
   news,
   values,
   executiveTeam,
-  brands,
 };
