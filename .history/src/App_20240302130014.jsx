@@ -7,7 +7,6 @@ import CareersPage from './pages/CareersPage/CareersPage';
 import NewsPage from './pages/NewsPage/NewsPage';
 import BrandsPage from './pages/BrandsPage/BrandsPage';
 import AboutPage from './pages/AboutPage/AboutPage';
-import NotFound from './pages/NofFound/NotFound';
 
 function App() {
   return (
