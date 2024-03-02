@@ -93,7 +93,7 @@ const partners = [
 const footer = [
   {
     name: 'Contact us',
-    url: 'mailto:corporateweb@awwg.com',
+    url: 'corporateweb@awwg.com',
   },
   {
     name: 'Legal info',
