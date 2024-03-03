@@ -23,6 +23,9 @@ export default function OurDivisions() {
                   {division.title}
                 </h2>
                 <ButtonComponent text="Find more" />
+                {/* <button className="text-white rounded border-2 font-semibold border-white py-2 px-6 hover:bg-white hover:text-black">
+                  Find more
+                </button> */}
               </div>
             </article>
           );

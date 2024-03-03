@@ -1,5 +1,4 @@
 import { divisions } from '../../helpers/const';
-import ButtonComponent from '../ButtonComponent/ButtonComponent';
 
 export default function OurDivisions() {
   return (
@@ -22,7 +21,9 @@ export default function OurDivisions() {
                 <h2 className="text-white text-3xl font-bold w-[100px] text-center">
                   {division.title}
                 </h2>
-                <ButtonComponent text="Find more" />
+                <button className="text-white rounded border-2 font-semibold border-white py-2 px-6 hover:bg-white hover:text-black">
+                  Find more
+                </button>
               </div>
             </article>
           );

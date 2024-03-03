@@ -62,8 +62,8 @@ import imgFaçonnable from '../assets/façonnable-logo-brands.webp';
 import imgAwwg from '../assets/awwg.svg';
 
 import careers1 from '../assets/careers1.webp';
-import careers2 from '../assets/careers2.webp';
-import careers3 from '../assets/careers3.webp';
+import careers2 from 'assets/careers2.webp';
+import careers3 from '../../assets/careers3.webp';
 
 const sections = [
   { name: 'About us', img: aboutUsSection, url: '/about-us' },
@@ -442,15 +442,7 @@ const history = [
 const divisions = [
   {
     title: 'Office careers',
-    img: careers1,
-  },
-  {
-    title: 'Retail careers',
-    img: careers2,
-  },
-  {
-    title: 'Intership & graduate program',
-    img: careers3,
+    img: '',
   },
 ];
 
@@ -464,5 +456,4 @@ export {
   executiveTeam,
   brands,
   history,
-  divisions,
 };

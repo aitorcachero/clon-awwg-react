@@ -1,0 +1,45 @@
+import brandsBanner from '../../assets/brands.webp';
+import BrandComponent from '../../components/BrandComponent/BrandComponent.jsx';
+import Header from '../../components/Header/Header';
+import { brands } from '../../helpers/const.js';
+
+export default function BrandsPage() {
+  return (
+    <>
+      <Header img={brandsBanner} text="Brands" />
+      {brands.map((brand, i) => {
+        return (
+          <section
+            className="bg-white flex flex-col w-full justify-center items-center mt-20 gap-10 animate-slide-up-fade"
+            key={i}
+          >
+            <img src={brand.imgBrand} className="text-black" />
+            {brand.text.map((texto, i) => {
+              return (
+                <p
+                  className="w-full p-4 lg:p-0 lg:w-[1200px] text-justify"
+                  key={i}
+                >
+                  {texto}
+                </p>
+              );
+            })}
+            <div
+              className="relative flex flex-col w-full lg:flex-row lg:w-[1200px] gap-4"
+              key={i}
+            >
+              {brand.banner.map((brand, i) => {
+                return (
+                  <>
+                    <BrandComponent brand={brand} />
+                  </>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })}
+      <div className="h-20"></div>
+    </>
+  );
+}

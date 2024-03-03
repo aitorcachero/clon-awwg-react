@@ -1,6 +1,6 @@
 export default function NewsComponent({ article }) {
   return (
-    <article className="w-full h-[680px] lg:w-[1200px] lg:h-[315px] bg-white shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] flex flex-col-reverse lg:flex-row relative my-1 lg:my-0">
+    <article className="w-full h-[660px] lg:w-[1200px] lg:h-[315px] bg-white shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] flex flex-col-reverse lg:flex-row relative my-1 lg:my-0">
       <main className="h-full lg:w-2/3 flex flex-col justify-end p-10 lg:justify-center items-center px-10 gap-4">
         <a href={article.url}>
           <div className="font-semibold text-xl text-center text-pretty hover:underline">

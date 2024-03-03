@@ -11,10 +11,7 @@ export default function Offices() {
             <h2 className="text-3xl font-semibold" style={{ color: '#2E5172' }}>
               Offices
             </h2>
-            <div
-              className="w-1/4  border-blue-900"
-              style={{ borderBottom: '1px solid black' }}
-            ></div>
+            <div className="w-1/4  border-blue-900"></div>
           </div>
           <article>
             <p>
@@ -42,10 +39,7 @@ export default function Offices() {
             <h2 className="text-3xl font-semibold" style={{ color: '#2E5172' }}>
               Showrooms
             </h2>
-            <div
-              className="w-1/4 border-blue-900"
-              style={{ borderBottom: '1px solid black' }}
-            ></div>
+            <div className="w-1/4 border-b-2 border-blue-900"></div>
           </div>
           <article>
             <p>

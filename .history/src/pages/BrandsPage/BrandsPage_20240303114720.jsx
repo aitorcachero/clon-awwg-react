@@ -8,7 +8,7 @@ export default function BrandsPage() {
     <>
       <Header img={brandsBanner} text="Brands" />
       {brands.map((brand, i) => {
-        return <BrandComponent brand={brand} key={i} />;
+        return <BrandComponent brand={brand} />;
       })}
       <div className="h-20"></div>
     </>

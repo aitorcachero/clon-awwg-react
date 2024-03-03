@@ -62,7 +62,7 @@ import imgFaçonnable from '../assets/façonnable-logo-brands.webp';
 import imgAwwg from '../assets/awwg.svg';
 
 import careers1 from '../assets/careers1.webp';
-import careers2 from '../assets/careers2.webp';
+import careers2 from '..assets/careers2.webp';
 import careers3 from '../assets/careers3.webp';
 
 const sections = [
